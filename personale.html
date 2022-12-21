@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Midt på Vestkysten finder du Dit Lægehus, som med et moderne og roligt miljø, 
+                    byder dig velkommen. Vores tre erfarne læger og vores kompetente personale er klar til at hjælpe dig.">
+  <title>Eksamen_foerste_semester_22</title>
+  <link href="css/styles.css" rel="stylesheet">
+  <meta name="robots" content="noindex">
+
+  <!--backgrounnd-color-->
+        <style>
+            body {
+                background-color: rgb(236, 243, 248)
+            }
+        </style>
+
+</head>
+
+<body>
+    
+<!--Header--><!--Denne har jeg selv indsat-->
+<!--logoet ligger ovenpå billedet-->
+<!--Jeg har indsat en class="responsive" sammen med billedet, så billedet nu er responsive -->
+       <header>
+        <div class="headerfoto">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo-nyt-blaa.svg" class="logo" alt="Logo, Ringkøbing Lægehus"></a>
+            </div>
+            <img src="images/blueflowersheader07.webp" class="responsive" alt="blå blomster, mio-ito-j5ATKLbSqbM-unsplash"> 
+        </div>
+        </header>
+
+<!-- Responsive navbar-->
+<!--navbar fra Bootstrap. Der er indsat flere menupunkter. Drop-down menuer er nestet inde i class="nav-bar item". id="navbarDropdown" er ændret til class="navbarDropdown"
+    da den bliver kopieret i de ekstra menupunkter, det ændrer ikke noget i CSS. Menu uden drop-down, står nederst i navbar som almindelig <li>link-->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <!-- <a class="navbar-brand" href="#">Start Bootstrap</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" class="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Personale</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="personale.html">Læger</a></li>
+                        <li><a class="dropdown-item" href="personale.html">Sygeplejersker</a></li>
+                        <li><a class="dropdown-item" href="personale.html">Lægesekretær</a></li>
+                        <li><a class="dropdown-item" href="personale.html">Bioanalytiker</a></li>
+                        <li><a class="dropdown-item" href="#section1">Fysioterapeut</a></li>
+                        <!-- <li><hr class="dropdown-divider" /></li> -->
+                        <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" class="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Praktisk info</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Diverse skemaer</a></li>
+                        <li><a class="dropdown-item" href="#">Ferie i Lægehuset</a></li>
+                        <li><a class="dropdown-item" href="#">GDPR</a></li>
+                        <li><a class="dropdown-item" href="#">Find vej</a></li>
+                        <li><a class="dropdown-item" href="#">Parkering</a></li>
+                        <!-- <li><hr class="dropdown-divider" /></li> -->
+                        <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" class="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Vacciner</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="vacciner.html">Infuenza vaccine</a></li>
+                        <li><a class="dropdown-item" href="vacciner.html">Corona vaccine</a></li>
+                        <li><a class="dropdown-item" href="vacciner.html">Børnevaccinationsprogram</a></li>
+                        <li><a class="dropdown-item" href="vacciner.html">Rejsevaccine</a></li>
+                        <li><a class="dropdown-item" href="vacciner.html">HPV vaccine</a></li>
+                        <!-- <li><hr class="dropdown-divider" /></li> -->
+                        <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" class="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Børn 0-15 år</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="børn0-15år.html">Børneundersøgelser</a></li>
+                        <li><a class="dropdown-item" href="børn0-15år.html">Børnevaccinationsprogram</a></li>
+                        <li><a class="dropdown-item" href="børn0-15år.html">Sundhedsplejersken</a></li>
+                        <li><a class="dropdown-item" href="børn0-15år.html">Vækstkurver</a></li>
+                        <!-- <li><hr class="dropdown-divider" /></li> -->
+                        <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" class="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Almene spørgsmål</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Fod- og håndvorter</a></li>
+                        <li><a class="dropdown-item" href="#">Gravid</a></li>
+                        <li><a class="dropdown-item" href="#">Receptfornyelse</a></li>
+                        <!-- <li><a class="dropdown-item" href="#">x</a></li> -->
+                        <!-- <li><hr class="dropdown-divider" /></li> -->
+                        <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">Kroniske sygdomme</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page content--><!--Den er en del af template--><!--h3 er ændret (fra h1) med ny font, passer til de andre oveskrifter-->
+<div class="container">
+    <div class="text-center mt-5">
+        <h3>Personale</h3>
+        <p class="lead">Her finder du en præsentation af vores personale, som består af vores læger, lægesekretærer, sygeplejersker og bioanalytikere.<br>
+          Nederst på siden kan du møde vores nye fysioterapeut, som er startet hos os.</p>
+        <!-- <p>Bootstrap v5.1.3</p> -->
+    </div>
+</div>
+
+<!-- Bootstrap core JS-->
+<!--Denne Java Script for drop-down menuen til at virke. Den er en del af template-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+
+
+<!--Side Indhold-->
+
+<div>
+  <img src="images/væg-med-ur.webp" class="foto-top" alt="foto af væg med ur, samantha-gades-BlIhVfXbi9s-unsplash">
+  </div>
+
+<!--Cards-->
+<!--https://www.youtube.com/watch?v=rV67qQahXAc--><!--koden indsat fra CodePen https://codepen.io/dcode-software/pen/JjjpzLE-->
+<!--Jeg har deaktiveret card_info, link, og thumb_up--><!--Der er indsat nye portrætfoto og tekst på alle kort-->
+<div class="cards">
+    <div class="card">
+      <img class="card__image" src="images/portræt_læge1.webp" alt="portrætfoto af kvinde, stephanie-liverani-Zz5LQe-VSMY-unsplash">
+      <div class="card__content">
+        <p>
+            Læge<br>Navn Efternavn<br>Ansættelse og Udd. år<br>Speciale
+        </p>
+        <p>
+          Ejer af Lægehuset og daglig leder for vores ansatte. Overtog praksis efter en del år i lægehuset i nabobyen.
+        </p>
+      </div>
+      <div class="card__info">
+        
+      </div>
+    </div>
+    <div class="card">
+      <img class="card__image" src="images/portræt_læge2.webp" alt="portrætfoto af mand, jurica-koletic-7YVZYZeITc8-unsplash">
+      <div class="card__content">
+        <p>
+            Læge<br>Navn Efternavn<br>Ansættelse og Udd. år<br>Speciale
+        </p>
+        <p>
+          Kommer fra en baggrund på en børneafd. Har dagligt det overordnerede ansvar for vores børneundersøgelser.
+        </p>
+      </div>
+      <div class="card__info">
+        
+      </div>
+    </div>
+    <div class="card">
+      <img class="card__image" src="images/portræt_læge3.webp" alt="portrætfoto af mand, julian-wan-WNoLnJo7tS8-unsplash.jpg">
+      <div class="card__content">
+        <p>
+            Læge<br>Navn Efternavn<br>Ansættelse og Udd. år<br>Speciale
+        </p>
+        <p>
+          Har været hos os i to år, og tager sig af alle generelle sygdomme, med særlig viden omkring sportsskader.
+        </p>
+      </div>
+      <div class="card__info">
+       
+      </div>
+    </div>
+    <div class="card">
+      <img class="card__image" src="images/portræt_sekretær1.webp" alt="portrætfoto af kvinde, connor-wilkins-2crxTr4jCkc-unsplash">
+      <div class="card__content">
+        <p>
+          Lægesekretær<br>Navn Efternavn<br>Ansættelse og Udd. år<br>Speciale
+        </p>
+        <p>
+          Er i lægehuset hos od i et år under uddannelse som lægesekretær. Altid klar til at hjælpe, når du har spørgsmål.
+        </p>
+      </div>
+      <div class="card__info">
+        
+      </div>
+    </div>
+    <div class="card">
+      <img class="card__image" src="images/portræt_sekretær2.webp" alt="portrætfoto af mand, joseph-gonzalez-iFgRcqHznqg-unsplash">
+      <div class="card__content">
+        <p>
+          Lægesekretær<br>Navn Efternavn<br>Ansættelse og Udd. år<br>Speciale
+        </p>
+        <p>
+          Ansigtet på stemmen i telefonen og personen du møder, når du kommer ind i praksis. altid klar til at hjælpe.
+        </p>
+      </div>
+      <div class="card__info">
+        </div>
+    </div>
+    <div class="card">
+      <img class="card__image" src="images/portræt_sekretær3.webp" alt="portrætfoto af mand, austin-wade-X6Uj51n5CE8-unsplash">
+      <div class="card__content">
+        <p>
+          Lægesekretær<br>Navn Efternavn<br>Ansættelse og Udd. år<br>Speciale
+        </p>
+        <p>
+          Ansigtet på stemmen i telefonen og personen du møder, når du kommer ind i praksis. altid klar til at hjælpe.
+        </p>
+      </div>
+      <div class="card__info">
+        </div>
+    </div>
+    <div class="card">
+      <img class="card__image" src="images/portræt_sekretær4.webp" alt="portrætfoto af mand, jack-finnigan-rriAI0nhcbc-unsplash">
+      <div class="card__content">
+        <p>
+          Lægesekretær<br>Navn Efternavn<br>Ansættelse og Udd. år<br>Speciale
+        </p>
+        <p>
+          Ansigtet på stemmen i telefonen og personen du møder, når du kommer ind i praksis. altid klar til at hjælpe.
+        </p>
+      </div>
+      <div class="card__info">
+        </div>
+    </div>
+    <div class="card">
+      <img class="card__image" src="images/portræt_sygeplejerske1.webp" alt="portrætfoto af kvinde, bekah-allmark-Qt0ogPnhGWY-unsplash">
+      <div class="card__content">
+        <p>
+          Sygeplejerske<br>Navn Efternavn<br>Ansættelse og Udd. år<br>Speciale
+        </p>
+        <p>
+          Foretager undersøgeler og behandling af alle kroniske lidelser, med speciale inden for hjertesygdomme.
+        </p>
+      </div>
+      <div class="card__info">
+        </div>
+    </div>
+    <div class="card">
+      <img class="card__image" src="images/portræt_sygeplejerske2.webp" alt="portrætfoto af mand, ludovic-migneault-4uj3iZ5m084-unsplash">
+      <div class="card__content">
+        <p>
+          Sygeplejerske<br>Navn Efternavn<br>Ansættelse og Udd. år<br>Speciale
+        </p>
+        <p>
+          Foretager undersøgeler og behandling af alle kroniske lidelser, med speciale inden for sårbehandling.
+        </p>
+      </div>
+      <div class="card__info">
+        </div>
+    </div>
+    <div class="card">
+      <img class="card__image" src="images/portræt_sygeplejerske3.webp" alt="portrætfoto af kvinde, christina-wocintechchat-com-SJvDxw0azqw-unsplash">
+      <div class="card__content">
+        <p>
+          Sygeplejerske<br>Navn Efternavn<br>Ansættelse og Udd. år<br>Speciale
+        </p>
+        <p>
+          Foretager undersøgeler og behandling af alle kroniske lidelser, med speciale inden for børnesygdomme.
+        </p>
+      </div>
+      <div class="card__info">
+        </div>
+    </div>
+    <div class="card">
+      <img class="card__image" src="images/portræt_bioanalytiker1.webp" alt="portrætfoto af mand, foto-sushi-6anudmpILw4-unsplash">
+      <div class="card__content">
+        <p>
+          Bioanalytiker<br>Navn Efternavn<br>Ansættelse og Udd. år<br>Speciale
+        </p>
+        <p>
+          Kommer med mange års erfaring som bioanalytiker fra et større sygehus, og er her i lægehuset på fuld tid.
+        </p>
+      </div>
+      <div class="card__info">
+        </div>
+    </div>
+    <div class="card">
+      <img class="card__image" src="images/portræt_bioanalytiker2.webp" alt="portrætfoto af mand, sergio-de-paula-c_GmwfHBDzk-unsplash">
+      <div class="card__content">
+        <p>
+          Bioanalytiker<br>Navn Efternavn<br>Ansættelse og Udd. år<br>Speciale
+        </p>
+        <p>
+          Ansat i lægehuset 3 dage om ugen, og hjælper med alle interne undersøgelser, samt forsker i projekter.
+        </p>
+      </div>
+      <div class="card__info">
+        </div>
+    </div>
+  </div>
+
+  <!--overskrift-->
+<h3>Ny Fysioterapeut i Lægehuset</h3>
+
+<!--container med nyheder-->
+<!--1x article, der er centreret på siden-->
+<div class="fys-nyt" id="section1">
+  <article class="fys-nyheder">
+      <h5>Nyansættelse af fysioterapeut</h5>
+      <div>
+        <img src="images/portræt_fys.webp" class="fys-foto" alt="portrætfoto af mand, christian-buehner-DItYlc26zVI-unsplash">
+      <p class="fys-personale">Dit Lægehus har ansat en fysioterapeut, som skal aflaste læger ved at vurdere patienter, der<br>kommer med smerter i
+        bevægeapparatet.<br>Du kan derfor forvente at blive tilbudt en tid hos fysioterapeuten, hvis du henvender sig grundet
+      smerter i<br>fx ryg, nakke, skulder, albuer, håndled, hofter og knæ.<br>Fysioterapeuten vil også kunne vurdere mange ledskader f.eks. som følge af fald
+      eller idrætsskader.<br>Fysioterapeuten vil vurdere, om der skal iværksættes yderligere undersøgelse f.eks. røntgen, og han kan henvise<br>
+      videre til behandling hos en praktiserende fysioterapeut.<br>Han vil også ofte kunne instruere i øvelser, som kan bedre tilstanden.</p>
+      <!-- <a href="#">se mere</a> -->
+    </div>
+    
+  </article>
+</div>
+
+<!--Footer-->
+<!--indsat fra CopePen https://codepen.io/slstudios/pen/zGPagM-->
+<!--Jeg har ændret billede og link i col-1 og indsat egen infrmation. Jeg har ændret <ul><li> i col-2-3 til <p> og insat egen information.
+    Jeg har indsat billede som link i col-4. Der er tilført en col-5. Der er ændret farve på baggrund og tekst.
+Jeg har valgt denne løsning, da den er simpel og passer til mit ønskede layout-->
+<!--Jeg har ændret alle col-1-2-3-4-5 til at hedde col, så de får samme bredde, og herefter fjernet col-5, da 4 col passer til 12-col layout--->
+<footer id="footer">
+  <div class="row">
+    <div class="col">
+        <h5>Dit Lægehus</h5>
+      <!-- <div class="logo">
+        <a href="#"><img src="//www.sofitmobile.com/images/sofit-icon.png"></a>
+      </div> -->
+      <p>Gade-Vej 00<br>XXXX By<br>CVR nr.: xxxxxxxx</p>
+      <div class="footer-knap">
+        <a href="#"><img src="images/knap_grøn-ny.png" class="footer-knap" alt="knap"></a>
+      </div>
+    </div>
+
+    <div class="col">
+        <h5>Tlf.: 00 00 00 00</h5>
+        <p>Telefontid kl. 08:00-10.00<br>og igen 10.30-12:00<br></p>
+        <!-- <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Buying Options</a></li>
+          <li><a href="#">Support</a></li>
+        </ul> -->
+    </div>
+
+    <div class="col">
+        <h5>Akut tlf.: 00 00 00 00 </h5>
+        <p>Til akut opstået sygdom<br>tlf. kl. 12:00-16.00<br></p>
+        <!-- <ul>
+          <li><a href="#">More</a></li>
+          <li><a href="#">More</a></li>
+          <li><a href="#">More</a></li>
+          <li><a href="#">More</a></li>
+          <li><a href="#">More</a></li>
+        </ul> -->
+    </div>
+
+    <div class="col">
+        <h5>Lægevagt tlf.: 00 00 00 00</h5>
+        <p>tlf kl. 16:00-08.00 i hverdage, samt i weekenden<br>og på helligdage hele døgnet</p>
+        <p>Dette site har kun til undervisningsformål</p>
+    </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Midt på Vestkysten finder du Dit Lægehus, som med et moderne og roligt miljø, 
+                    byder dig velkommen. Vores tre erfarne læger og vores kompetente personale er klar til at hjælpe dig.">
+    <title>Eksamen_foerste_semester_22</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <meta name="robots" content="noindex">
+
+<!--backgrounnd-color-->
+    <style>
+        body {
+            background-color: rgb(236, 243, 248)
+        }
+    </style>
+
+</head>
+
+<body>
+    
+<!--Header--><!--Denne har jeg selv indsat-->
+<!--logoet ligger ovenpå billedet-->
+<!--Jeg har indsat en class="responsive" sammen med billedet, så billedet nu er responsive -->
+       <header>
+        <div class="headerfoto">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo-nyt-blaa.svg" class="logo" alt="Logo, Ringkøbing Lægehus"></a>
+            </div>
+            <img src="images/blueflowersheader07.webp" class="responsive" alt="blå blomster, mio-ito-j5ATKLbSqbM-unsplash"> 
+        </div>
+        </header>
+
+<!-- Responsive navbar-->
+<!--navbar fra Bootstrap. Der er indsat flere menupunkter. Drop-down menuer er nestet inde i class="nav-bar item". id="navbarDropdown" er ændret til class="navbarDropdown"
+    da den bliver kopieret i de ekstra menupunkter, det ændrer ikke noget i CSS. Menu, uden drop-down, står nederst i navbar som almindelig <li>link-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <!-- <a class="navbar-brand" href="#">Start Bootstrap</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" class="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Personale</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="personale.html">Læger</a></li>
+                        <li><a class="dropdown-item" href="personale.html">Sygeplejersker</a></li>
+                        <li><a class="dropdown-item" href="personale.html">Lægesekretær</a></li>
+                        <li><a class="dropdown-item" href="personale.html">Bioanalytiker</a></li>
+                        <li><a class="dropdown-item" href="personale.html">Fysioterapeut</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" class="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Praktisk info</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Diverse skemaer</a></li>
+                        <li><a class="dropdown-item" href="#">Ferie i Lægehuset</a></li>
+                        <li><a class="dropdown-item" href="#">GDPR</a></li>
+                        <li><a class="dropdown-item" href="#">Find vej</a></li>
+                        <li><a class="dropdown-item" href="#">Parkering</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" class="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Vacciner</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="vacciner.html">Infuenza vaccine</a></li>
+                        <li><a class="dropdown-item" href="vacciner.html">Corona vaccine</a></li>
+                        <li><a class="dropdown-item" href="vacciner.html">Børnevaccinationsprogram</a></li>
+                        <li><a class="dropdown-item" href="vacciner.html">Rejsevaccine</a></li>
+                        <li><a class="dropdown-item" href="vacciner.html">HPV vaccine</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" class="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Børn 0-15 år</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="børn0-15år.html">Børneundersøgelser</a></li>
+                        <li><a class="dropdown-item" href="børn0-15år.html">Børnevaccinationsprogram</a></li>
+                        <li><a class="dropdown-item" href="børn0-15år.html">Sundhedsplejersken</a></li>
+                        <li><a class="dropdown-item" href="børn0-15år.html">Vækstkurver</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" class="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Almene spørgsmål</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Fod- og håndvorter</a></li>
+                        <li><a class="dropdown-item" href="#">Gravid</a></li>
+                        <li><a class="dropdown-item" href="#">Receptfornyelse</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">Kroniske sygdomme</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page content--><!--Den er en del af template--><!--h3 er ændret (fra h1) med ny font, passer til de andre oveskrifter-->
+<div class="container">
+    <div class="text-center mt-5">
+        <h3>Børn 0-15 år</h3>
+        <p class="lead">Her kan du finde oplysninger omkring de undersøgelser og vacciner
+            dit barn vil blive tilbudt.<br> Her kan du også finde din kontakt til Sundhedsplejersken.</p>
+        <!-- <p>Bootstrap v5.1.3</p> -->
+    </div>
+</div>
+
+
+
+
+<!-- Bootstrap core JS-->
+<!--Denne Java Script for drop-down menuen til at virke. Den er en del af template-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+
+<!--Side Indhold-->
+
+<div>
+    <img src="images/byggeklodser02.webp" class="foto-top" alt="foto af barnehænder med byggekloder, michal-bozek-Cl2DhalcsO0-unsplash">
+</div>
+
+
+
+<!-- https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-containers.php -->
+<!-- https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flex-wrap_wrap -->
+<!-- koden rettet til med header og indhold, Her har det været en udfordring at lave en flexboks med samme
+baggrndsfarve som sitets baggrund, for at man ikke skal kunne se, der er en boks rundt om de 4 bokse med indhold. 
+Jeg er udfordret med at fjerne linjerne fra den kode jeg har kopieret, de kan ses på højre side af de to øverste flexbokse-->
+<div class="flex-container">
+    <div>
+        <h5 class="børn">Børneundersøgelser</h5>
+        <p class="børninfo">Sundhedsstyrelsen anbefaler børneundersøgelser hos egen læge.<br>Du vil blive tilbudt 7 undersøgelser,
+             inden dit barn fylder 6 år. Du kan se her, hvornår de ligger, og man skal selv bestille tid.</p>
+<!-- table er kopieret og indsat fra Ringkøbing Lægehus egen hjemmeside. Jeg har flyttet style="height: 214px;" width="100%" over i CSS,
+    og fjernet cellspacing="5" cellpadding="5"-->
+        <table class="table">
+            <tbody>
+            <tr>
+            <td style="width: 10%;"><strong>Alder</strong></td>
+            <!-- <td style="width: 67.7769%;"><strong>Vaccination</strong></td> -->
+            <td style="width: 17.2231%;"><strong>Børneundersøgelser</strong></td>
+            </tr>
+            <tr>
+            <td style="width: 10%;">5 uger</td>
+            <!-- <td style="width: 67.7769%;">&nbsp;</td> -->
+            <td style="width: 17.2231%;">Ja</td>
+            </tr>
+          
+            <tr>
+            <td style="width: 10%;">5 mdr.</td>
+            <!-- <td style="width: 67.7769%;">Di-Te-Ki-Pol+Hib (1) og Prevenar 13 (2)</td> -->
+            <td style="width: 17.2231%;">Ja</td>
+            </tr>
+            <tr>
+            <td style="width: 10%;">12 mdr.</td>
+            <!-- <td style="width: 67.7769%;">Di-Te-Ki-Pol+Hib (1) og Prevenar 13 (3)</td> -->
+            <td style="width: 17.2231%;">Ja</td>
+            </tr>
+            <tr>
+            <td style="width: 10%;">15 mdr.</td>
+            <!-- <td style="width: 67.7769%;">MFR (1)</td> -->
+            <td style="width: 17.2231%;">Nej</td>
+            </tr>
+            <tr>
+            <td style="width: 10%;">2 år</td>
+            <!-- <td style="width: 67.7769%;">&nbsp;</td> -->
+            <td style="width: 17.2231%;">Ja</td>
+            </tr>
+            <tr>
+            <td style="width: 10%;">3 år</td>
+            <!-- <td style="width: 67.7769%;">&nbsp;</td> -->
+            <td style="width: 17.2231%;">Ja</td>
+            </tr>
+            <tr>
+            <td style="width: 10%;">4 år</td>
+            <!-- <td style="width: 67.7769%;">MFR(2)</td> -->
+            <td style="width: 17.2231%;">Ja</td>
+            </tr>
+            <tr>
+            <td style="width: 10%;">5 år</td>
+            <!-- <td style="width: 67.7769%;">Di-Te-Ki-Pol revacc.</td> -->
+            <td style="width: 17.2231%;">Ja</td>
+            </tr>
+
+
+            </tbody>
+            </table>
+            <p class="børninfo">Når dit barn fylder 6 år, overgår undersøgelserne til Sundhedsplejersken.</p>
+    </div>
+
+    <div class="diagram">
+        <h5 class="børn">Børnevaccinationsprogram </h5>
+        <p class="børninfo">Sundhedsstyrelsen anbefaler at du følger vaacinationsproframmet for dit barn.
+            Du kan se vaccinerne her</p>
+<!-- table er kopieret og indsat fra Ringkøbing Lægehus egen hjemmeside, Jeg har flyttet style="height: 214px;" width="100%" over i CSS,
+    og fjernet cellspacing="5" cellpadding="5"-->
+            <table class="table">
+                <tbody>
+                <tr>
+                <td style="width: 15%;"><strong>Alder</strong></td>
+                <td style="width: 50%;"><strong>Vaccination</strong></td>
+                <!-- <td style="width: 17.2231%;"><strong>Børneundersøgelser</strong></td> -->
+                </tr>
+                
+                <tr>
+                <td style="width: 15%;">3 mdr.</td>
+                <td style="width: 50%;">Di-Te-Ki-Pol+Hib (1) og Prevenar 13 (1)</td>
+                
+                </tr>
+                <tr>
+                <td style="width: 15%;">5 mdr.</td>
+                <td style="width: 50%;">Di-Te-Ki-Pol+Hib (1) og Prevenar 13 (2)</td>
+                <!-- <td style="width: 17.2231%;">Ja</td> -->
+                </tr>
+                <tr>
+                <td style="width: 15%;">12 mdr.</td>
+                <td style="width: 50%;">Di-Te-Ki-Pol+Hib (1) og Prevenar 13 (3)</td>
+                <!-- <td style="width: 17.2231%;">Ja</td> -->
+                </tr>
+                <tr>
+                <td style="width: 15%;">15 mdr.</td>
+                <td style="width: 50%;">MFR (1)</td>
+                <!-- <td style="width: 17.2231%;">Nej</td> -->
+                </tr>
+                
+               
+                <tr>
+                <td style="width: 15%;">4 år</td>
+                <td style="width: 50%;">MFR(2)</td>
+                
+                </tr>
+                <tr>
+                <td style="width: 15%;">5 år</td>
+                <td style="width: 50%;">Di-Te-Ki-Pol revacc.</td>
+                <!-- <td style="width: 17.2231%;">Ja</td> -->
+                </tr>
+                <tr>
+                <td style="width: 15%;">12 år&nbsp;</td>
+                <td style="width: 50%;">HPV vacc x 2 (piger og drenge under 15 år) ved 0 og 6 mdr. Piger og drenge over 15 år x 3</td>
+                <!-- <td style="width: 17.2231%;">Nej</td> -->
+                </tr>
+                <tr>
+                <td style="width: 15%;">18 år</td>
+                <td style="width: 50%;">Røde hunde (Kvinder) evt. hvis du ikke har fået den som barn.</td>
+                <!-- <td style="width: 17.2231%;">Nej</td> -->
+                </tr>
+                </tbody>
+                </table>
+                <p class="børninfo">Du kan læse mere om vaccinerne på <a href="#">Sundhed.dk</a></p>
+    </div>
+
+    <div class="sundhspl">
+        <h5 class="børn">Sundhedsplejersken</h5>
+        <p class="sundhpl">Her kan du møde din Sundhedplejerske og finde hendes kontaktoplysninger:</p>
+        <div>
+            <img src="images/portræt_sundhedspl.webp" class="sundhpl-foto" alt="portrætfoto af kvinde, jake-nackos-IF9TK5Uy-KI-unsplash">
+            <p class="sundhpl-kontakt">Sundhedsplejerske Efternavn<br>Tlf.: 00 00 00 00<br>Træffes pr. tlf. man-fre kl. 08:00-09:00</p>
+        </div>
+        
+
+    </div>
+
+    <div class="kurver">
+        <h5 class="børn">Vækstkurver</h5>
+        <p class="børninfo">Dit barns vækst er individuel og følges af din læge.</p>
+            <div>
+                <img src="images/stableklodser.webp" class="klodser-foto" alt="Foto af stableklodser, markus-spiske-OO89_95aUC0-unsplash">
+                <p class="børninfo">Du kan finde vækstkurver for både piger og drenge på Sundhed.dk, hvis du vil se hvor dit barn ligger i forhold til gennemsnittet.</p>
+            </div>
+            <p class="børninfo"><a href="#"><br>Gå til Sundhed.dk</a></p>
+        
+    </div>
+</div>
+
+<!-- carrusel -->
+<!-- https://getbootstrap.com/docs/5.2/components/carousel/ -->
+<!-- her har jeg indsat egne billeder -->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/bamse_stetoskop.webp" class="d-block w-100" alt="foto af bamse ved lægen, derek-finch-Gi8Q8IfpxdY-unsplash">
+      </div>
+      <div class="carousel-item">
+        <img src="images/kugleramme.webp" class="d-block w-100" alt="foto af barnehænder med kugleramme, luis-arias-IaaI7UIv-_E-unsplash">
+      </div>
+      <div class="carousel-item">
+        <img src="images/træklodser.webp" class="d-block w-100" alt="foto af barnehænder med træklodser, la-rel-easter-KuCGlBXjH_o-unsplash">
+      </div>
+    </div>
+  </div>
+
+<!--Footer-->
+<!--indsat fra CopePen https://codepen.io/slstudios/pen/zGPagM-->
+<!--Jeg har ændret billede og link i col-1 og indsat egen infrmation. Jeg har ændret <ul><li> i col-2-3 til <p> og insat egen information.
+    Jeg har indsat billede som link i col-4. Der er tilført en col-5. Der er ændret farve på baggrund og tekst.
+Jeg har valgt denne løsning, da den er simpel og passer til mit ønskede layout-->
+<!--Jeg har ændret alle col-1-2-3-4-5 til at hedde col, så de får samme bredde, og herefter fjernet col-5, da 4 col passer til 12-col layout--->
+<footer id="footer">
+    <div class="row">
+      <div class="col">
+          <h5>Dit Lægehus</h5>
+        <!-- <div class="logo">
+          <a href="#"><img src="//www.sofitmobile.com/images/sofit-icon.png"></a>
+        </div> -->
+        <p>Gade-Vej 00<br>XXXX By<br>CVR nr.: xxxxxxxx</p>
+        <div class="footer-knap">
+            <a href="#"><img src="images/knap_grøn-ny.png" class="footer-knap" alt="knap"></a>
+          </div>
+      </div>
+  
+      <div class="col">
+          <h5>Tlf.: 00 00 00 00</h5>
+          <p>Telefontid kl. 08:00-10.00<br>og igen 10.30-12:00<br></p>
+          <!-- <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Buying Options</a></li>
+            <li><a href="#">Support</a></li>
+          </ul> -->
+      </div>
+  
+      <div class="col">
+          <h5>Akut tlf.: 00 00 00 00 </h5>
+          <p>Til akut opstået sygdom<br>tlf. kl. 12:00-16.00<br></p>
+          <!-- <ul>
+            <li><a href="#">More</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">More</a></li>
+          </ul> -->
+      </div>
+  
+      <div class="col">
+          <h5>Lægevagt tlf.: 00 00 00 00</h5>
+          <p>tlf kl. 16:00-08.00 i hverdage, samt i weekenden<br>og på helligdage hele døgnet</p>
+          <p>Dette site har kun til undervisningsformål</p>
+      </div>
+  
+    </div>
+  </footer>
+
+
+
+</body>
+</html>

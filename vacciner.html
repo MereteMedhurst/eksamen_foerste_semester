@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Midt på Vestkysten finder du Dit Lægehus, som med et moderne og roligt miljø, 
+                    byder dig velkommen. Vores tre erfarne læger og vores kompetente personale er klar til at hjælpe dig.">
+    <title>Eksamen_foerste_semester_22</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <meta name="robots" content="noindex">
+
+<!--backgrounnd-color-->
+        <style>
+            body {
+                background-color: rgb(236, 243, 248)
+            }
+        </style>
+
+</head>
+
+<body>
+    
+<!--Header--><!--Denne har jeg selv indsat-->
+<!--logoet ligger ovenpå billedet-->
+<!--Jeg har indsat en class="responsive" sammen med billedet, så billedet nu er responsive -->
+       <header>
+        <div class="headerfoto">
+            <div class="logo">
+            <a href="index.html"><img src="images/logo-nyt-blaa.svg" class="logo" alt="Logo, Ringkøbing Lægehus"></a>
+            </div>
+            <img src="images/blueflowersheader07.webp" class="responsive" alt="blå blomster, mio-ito-j5ATKLbSqbM-unsplash"> 
+        </div>
+        </header>
+
+<!-- Responsive navbar-->
+<!--navbar fra Bootstrap. Der er indsat flere menupunkter. Drop-down menuer er nestet inde i class="nav-bar item". id="navbarDropdown" er ændret til class="navbarDropdown"
+    da den bliver kopieret i de ekstra menupunkter, det ændrer ikke noget i CSS. Menu uden drop-down, står nederst i navbar som almindelig <li>link-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <!-- <a class="navbar-brand" href="#">Start Bootstrap</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" class="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Personale</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="personale.html">Læger</a></li>
+                            <li><a class="dropdown-item" href="personale.html">Sygeplejersker</a></li>
+                            <li><a class="dropdown-item" href="personale.html">Lægesekretær</a></li>
+                            <li><a class="dropdown-item" href="personale.html">Bioanalytiker</a></li>
+                            <li><a class="dropdown-item" href="personale.html">Fysioterapeut</a></li>
+                            <!-- <li><hr class="dropdown-divider" /></li> -->
+                            <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" class="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Praktisk info</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Diverse skemaer</a></li>
+                            <li><a class="dropdown-item" href="#">Ferie i Lægehuset</a></li>
+                            <li><a class="dropdown-item" href="#">GDPR</a></li>
+                            <li><a class="dropdown-item" href="#">Find vej</a></li>
+                            <li><a class="dropdown-item" href="#">Parkering</a></li>
+                            <!-- <li><hr class="dropdown-divider" /></li> -->
+                            <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" class="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Vacciner</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="vacciner.html">Infuenza vaccine</a></li>
+                            <li><a class="dropdown-item" href="vacciner.html">Corona vaccine</a></li>
+                            <li><a class="dropdown-item" href="vacciner.html">Børnevaccinationsprogram</a></li>
+                            <li><a class="dropdown-item" href="vacciner.html">Rejsevaccine</a></li>
+                            <li><a class="dropdown-item" href="vacciner.html">HPV vaccine</a></li>
+                            <!-- <li><hr class="dropdown-divider" /></li> -->
+                            <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" class="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Børn 0-15 år</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="børn0-15år.html">Børneundersøgelser</a></li>
+                            <li><a class="dropdown-item" href="børn0-15år.html">Børnevaccinationsprogram</a></li>
+                            <li><a class="dropdown-item" href="børn0-15år.html">Sundhedsplejersken</a></li>
+                            <li><a class="dropdown-item" href="børn0-15år.html">Vækstkurver</a></li>
+                            <!-- <li><hr class="dropdown-divider" /></li> -->
+                            <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" class="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Almene spørgsmål</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Fod- og håndvorter</a></li>
+                            <li><a class="dropdown-item" href="#">Gravid</a></li>
+                            <li><a class="dropdown-item" href="#">Receptfornyelse</a></li>
+                            <!-- <li><a class="dropdown-item" href="#">x</a></li> -->
+                            <!-- <li><hr class="dropdown-divider" /></li> -->
+                            <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Kroniske sygdomme</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- Page content--><!--Den er en del af template--><!--h3 er ændret (fra h1) med ny font, passer til de andre oveskrifter-->
+    <div class="container">
+        <div class="text-center mt-5">
+            <h3>Vacciner</h3>
+            <p class="lead">Her kan du læse om de vacciner, vi kan tilbyde hos Dit Lægehus</p>
+            <!-- <p>Bootstrap v5.1.3</p> -->
+        </div>
+</div>
+
+<!-- Bootstrap core JS-->
+<!--Denne Java Script for drop-down menuen til at virke. Den er en del af template-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+
+
+<!--Side Indhold-->
+
+
+<!-- https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-containers.php -->
+<!-- https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flex-wrap_wrap -->
+<!-- koden rettet til med header og indhold. Her har det været en udfordring at lave en flexboks med samme
+baggrundsfarve som sitets baggrund, for at man ikke skal kunne se, der er en boks rundt om de 4 bokse med indhold -->
+<div>
+    <img src="images/vaccinationsnaal.webp" class="foto-top" alt="foto af hænder med vaccinenål, mufid-majnun-cM1aU42FnRg-unsplash">
+</div>
+
+<div class="flex-container">
+    <div>
+        <h5 class="børn">Influenza- og Covid-19 Vaccine</h5>
+        <p class="børninfo">Dit Lægehus vaccinerer ikke mod Covid-19, Influenza eller Pneumokok i år.</p>
+            <ul>
+                <li>Vaccinationen vil foregå i vaccinationscentre (B.la ROFI-Centret)</li>
+                <li>Bestil tid til vaccination på vacciner.dk eller ring til en regional hotline i Region Midtjylland:<br>
+                    Tlf.: 00 00 00 00</li>
+            </ul>       
+    </div>
+
+    <div class="diagram">
+        <h5 class="børn">Børnevaccinationsprogram</h5>
+        <p class="børninfo">Sundhedsstyrelsen anbefaler at du følger vaccinationsprogrammet for dit barn.
+            Du kan se en liste over vaccinerne på vores side om Børn 0-15 år.</p>
+            <p class="vacc-børn-link"><a href="børn0-15år.html">Børnevaccinationsprogram</a></p>       
+    </div>
+
+    <div class="sundhspl">
+        <h5 class="børn">Rejsevaccine</h5>
+        <p class="sundhpl">Hos Dit Lægehus giver vi kun information og vaccintion til korte rejser. Dvs. går din rejse
+            kun til et enkelt land eller to, er det en almindelg charterrejse, kan du få rejseinformation her i huset hos en
+            sygeplejerske. Du vil blive ringet op af en sygeplejerske og I vil sammen aftale en tid til gennemgangen af rejsen. 
+            Ved denne gennemgang ses der på hvilke vaccinationer der anbefales, samt der rådgives om malaria profylakse, rejse og sundhed.
+        </p>       
+    </div>
+
+    <div class="kurver">
+        <h5 class="børn">HPV Vaccine</h5>
+        <p class="børninfo">HPV vaccination tilbydes piger og drenge i 12 års alderen som en del af børnevaccinationsprogrammet. HPV 
+            er en forkortelse for humant papillomavirus, som bl.a. er årsag til livmoderhalskræft.
+        </p>
+        <p class="børninfo"><a href="#">læs mere på Sundhed.dk</a></p>
+    </div>
+</div>
+
+<!-- carousel -->
+<!-- https://getbootstrap.com/docs/5.2/components/carousel/ -->
+<!-- her har jeg indsat egne billeder -->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/covid-19.webp" class="d-block w-100" alt="foto af covid-19 vaccine, daniel-schludi-mAGZNECMcUg-unsplash">
+      </div>
+      <div class="carousel-item">
+        <img src="images/skrivebord.webp" class="d-block w-100" alt="foto af skrivebord, georgia-de-lotz-kubiNW8MceM-unsplash">
+      </div>
+      <div class="carousel-item">
+        <img src="images/vaccine-stik.webp" class="d-block w-100" alt="foto af vaccinestik i arm, national-cancer-institute-fi3zHLxWrYw-unsplash">
+      </div>
+    </div>
+  </div>
+
+<!--Footer-->
+<!--indsat fra CopePen https://codepen.io/slstudios/pen/zGPagM-->
+<!--Jeg har ændret billede og link i col-1 og indsat egen infrmation. Jeg har ændret <ul><li> i col-2-3 til <p> og insat egen information.
+    Jeg har indsat billede som link i col-4. Der er tilført en col-5. Der er ændret farve på baggrund og tekst.
+Jeg har valgt denne løsning, da den er simpel og passer til mit ønskede layout-->
+<!--Jeg har ændret alle col-1-2-3-4-5 til at hedde col, så de får samme bredde, og herefter fjernet col-5, da 4 col passer til 12-col layout--->
+<footer id="footer">
+    <div class="row">
+      <div class="col">
+          <h5>Dit Lægehus</h5>
+        <!-- <div class="logo">
+          <a href="#"><img src="//www.sofitmobile.com/images/sofit-icon.png"></a>
+        </div> -->
+        <p>Gade-Vej 00<br>XXXX By<br>CVR nr.: xxxxxxxx</p>
+        <div class="footer-knap">
+            <a href="#"><img src="images/knap_grøn-ny.png" class="footer-knap" alt="knap"></a>
+          </div>
+      </div>
+  
+      <div class="col">
+          <h5>Tlf.: 00 00 00 00</h5>
+          <p>Telefontid kl. 08:00-10.00<br>og igen 10.30-12:00<br></p>
+          <!-- <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Buying Options</a></li>
+            <li><a href="#">Support</a></li>
+          </ul> -->
+      </div>
+  
+      <div class="col">
+          <h5>Akut tlf.: 00 00 00 00 </h5>
+          <p>Til akut opstået sygdom<br>tlf. kl. 12:00-16.00<br></p>
+          <!-- <ul>
+            <li><a href="#">More</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">More</a></li>
+          </ul> -->
+      </div>
+  
+      <div class="col">
+          <h5>Lægevagt tlf.: 00 00 00 00</h5>
+          <p>tlf kl. 16:00-08.00 i hverdage, samt i weekenden<br>og på helligdage hele døgnet</p>
+          <p>Dette site har kun til undervisningsformål</p>
+      </div>
+  
+    </div>
+  </footer>
+
+</body>
+</html>
